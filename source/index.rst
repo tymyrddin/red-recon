@@ -20,10 +20,12 @@ In progress ...
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Tracking
+   :caption: Tracking and tracing
 
    docs/tracking/README.md
-   docs/tracking/*
+   docs/tracking/domains.md
+   docs/tracking/s3-urls.md
+   docs/tracking/ssrf.md
 
 .. toctree::
    :caption: Links

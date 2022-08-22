@@ -7,13 +7,12 @@ Falconry is the hunting of wild information in its natural state and habitat by 
 ## Why?
 
 Understanding how a target actually works can give directions to further explore and help narrow down attack targets. 
-Drawing tangible goals may very well be our first challenge. 
-A good start can be benign public-facing information.
+Drawing tangible goals may very well be our first challenge. A good start can be benign public-facing information.
 
 ## How?
 
 * [Some known places to look first](known.md)
 * [Spotting hidden relationships](relationships.md)
 * [Eyeing repositories](repositories.md)
-* [Pulling domains](domains.md)
+* [Stalking domains](domains.md)
 * [Catching web infrastructure](infrastructure.md)
