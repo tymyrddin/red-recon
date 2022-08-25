@@ -15,4 +15,4 @@ been assigned to another customer and the results will no longer be relevant. Sc
 
 ## Examples
 
-    # nmap -F -sV -iL domains.txt -oA fast_results
+    # nmap -F -sV -iL domains.txt -oA results
