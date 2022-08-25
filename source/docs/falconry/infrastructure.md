@@ -4,7 +4,7 @@
 
 ```text
 1 Do a whois
-2 Nmap domains
+2 Scan domains with nmap
 ```
 
 ## Notes
