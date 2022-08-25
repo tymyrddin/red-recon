@@ -3,8 +3,8 @@
 ## Attack tree
 
 ```text
-1 From certificates
-2 Harvesting the Internet
+1 From certificates (AND)
+2 Try a classic brute-force attack using well-known subdomain keywords like staging.target.com, help.target.com, dev.target.com, etc.
 ```
 
 ## Notes
@@ -28,3 +28,5 @@ network, we could intercept the communication flow of ***all*** applications usi
 * [Censys](https://censys.io/)
 * [crt.sh](https://crt.sh/)
 * [Sublist3r](https://github.com/aboul3la/Sublist3r)
+* [Amass](https://github.com/OWASP/Amass/)
+* [Fernmelder](https://github.com/stealth/fernmelder/)
