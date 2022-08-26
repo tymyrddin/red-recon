@@ -21,12 +21,12 @@ Scouting in the forest
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Tracking and tracing
+   :caption: Seeking vulnerabilities
 
-   docs/tracking/README.md
-   docs/tracking/domains.md
-   docs/tracking/s3-urls.md
-   docs/tracking/ssrf.md
+   docs/seeking/README.md
+   docs/seeking/domains.md
+   docs/seeking/s3-urls.md
+   docs/seeking/ssrf.md
 
 .. toctree::
    :caption: Links
