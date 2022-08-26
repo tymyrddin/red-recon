@@ -1,9 +1,9 @@
-# Sporting for information
+# Sporting for more information
 
 ## Attack tree
 
 ```text
-1 Read the whole site
+1 Read all websites of the target
 2 Download and read all downloadables from the target's website(s)
 3 Find every PowerPoint deck and PDF presentation that bears a reference to your targets, , their slogan(s), most used 
 keywords on the most popular sharing platforms: Slideshare, Scribd, Google Drive, DocumentCloud, ..., using:

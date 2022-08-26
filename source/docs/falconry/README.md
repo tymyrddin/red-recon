@@ -11,7 +11,7 @@ Drawing tangible goals may very well be our first challenge. A good start can be
 
 ## How?
 
-* [Sporting for information](known.md)
+* [Sporting for more information](known.md)
 * [Spotting hidden relationships](relationships.md)
 * [Eyeing repositories](repositories.md)
 * [Diving for domains](domains.md)
