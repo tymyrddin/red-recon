@@ -2,13 +2,11 @@
 
 ## What?
 
-A tracking system, also known as a locating system, is used for the observing of persons or objects on the move and 
-supplying a timely ordered sequence of location data for further processing.
+Seeking vulnerabilities
 
 ## Why?
 
-How many domains to explore for code injection, path traversal, faulty access controls, misconfigurations??? 
-Overwhelmed by the number of possibilities? How much time to spend on what? What are we overlooking?
+To gain initial access
 
 ## How?
 
