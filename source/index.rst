@@ -25,6 +25,7 @@ Scouting in the forest
 
    docs/seeking/README.md
    docs/seeking/domains.md
+   docs/seeking/defence.md
    docs/seeking/s3-urls.md
    docs/seeking/ssrf.md
 
