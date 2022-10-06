@@ -10,8 +10,9 @@ To gain information for initial access
 
 ## How?
 
+* [Defence detection](defence.md)
+* [Nmap firewall evasion techniques](nmap.md)
 * [Scanning cloud infrastructure](scanning.md)
 * [Revealing hidden domains](domains.md)
-* [Detect defence](defence.md)
 * [Investigating S3 URLs](s3-urls.md)
 * [Server-side request forgery](ssrf.md)

@@ -72,9 +72,10 @@ Falconry
    :caption: Evasion (cloud)
 
    docs/evasion/README.md
+   docs/evasion/defence.md
+   docs/evasion/nmap.md
    docs/evasion/scanning.md
    docs/evasion/domains.md
-   docs/evasion/defence.md
    docs/evasion/s3-urls.md
    docs/evasion/ssrf.md
 
