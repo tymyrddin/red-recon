@@ -11,7 +11,7 @@ To gain information for initial access
 ## How?
 
 * [Defence detection](defence.md)
-* [Nmap firewall evasion techniques](nmap.md)
+* [Stealth and evasion with Nmap](nmap.md)
 * [Scanning cloud infrastructure](scanning.md)
 * [Revealing hidden domains](domains.md)
 * [Investigating S3 URLs](s3-urls.md)
