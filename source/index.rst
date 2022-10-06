@@ -1,4 +1,4 @@
-Scouting in the forest
+Watching the canopy
 ======================================================
 
 .. image:: _static/images/in-progress.png
