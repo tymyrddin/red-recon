@@ -48,6 +48,26 @@ Falconry
    :glob:
    :maxdepth: 1
    :includehidden:
+   :caption: Active recon
+
+   docs/active/README.md
+   docs/active/war-dialing-driving-flying-shipping.md
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Scanning
+
+   docs/scanning/README.md
+   docs/scanning/passive.md
+   docs/scanning/active.md
+   docs/scanning/creative.md
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
    :caption: Evasion (cloud)
 
    docs/evasion/README.md
