@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Watching the canopy'
+project = 'Falconry'
 copyright = '2022, Ty Myrddin'
 author = 'Ty Myrddin'
 release = '0.1'
@@ -52,7 +52,7 @@ html_theme_options = {
     'titles_only': False
 }
 
-html_title = "Watching the canopy"
+html_title = "Falconry"
 html_logo = "img/logo.png"
 html_favicon = "img/favicon.ico"
 

@@ -1,15 +1,4 @@
-# Diving for domains
-
-## Attack tree
-
-```text
-1 From certificates (AND)
-2 Try a classic brute-force attack using well-known subdomain keywords like staging.target.com, help.target.com, dev.target.com, etc.
-```
-
-## Notes
-
-### Certificates
+# Certificates
 
 When a certificate authority issues a certificate, these are entered into a central repository called a certificate log. 
 This repository keeps a binary tree of all certificates, where each node is the hash of its child nodes, thereby 

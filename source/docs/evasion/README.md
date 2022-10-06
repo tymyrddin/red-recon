@@ -2,14 +2,15 @@
 
 ## What?
 
-Seeking vulnerabilities
+Evading cloud security controls
 
 ## Why?
 
-To gain initial access
+To gain information for initial access
 
 ## How?
 
+* [Scanning cloud infrastructure](scanning.md)
 * [Revealing hidden domains](domains.md)
 * [Detect defence](defence.md)
 * [Investigating S3 URLs](s3-urls.md)

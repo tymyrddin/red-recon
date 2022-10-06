@@ -1,33 +1,62 @@
-Watching the canopy
+Falconry
 ======================================================
 
-.. image:: _static/images/in-progress.png
-  :alt: In Progress ...
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Domains
+
+   docs/domains/README.md
+   docs/domains/registrars.md
+   docs/domains/asn.md
+   docs/domains/whois.md
+   docs/domains/nslookup.md
+   docs/domains/dig.md
+   docs/domains/traceroute.md
+   docs/domains/assets.md
+   docs/domains/certs.md
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Falconry
+   :caption: OSINT
 
-   docs/falconry/README.md
-   docs/falconry/known.md
-   docs/falconry/relationships.md
-   docs/falconry/repositories.md
-   docs/falconry/domains.md
-   docs/falconry/infrastructure.md
+   docs/osint/README.md
+   docs/osint/website.md
+   docs/osint/social-media.md
+   docs/osint/job-ads.md
+   docs/osint/people.md
+   docs/osint/shodan.md
+   docs/osint/harvester.md
+   docs/osint/recon-ng.md
+   docs/osint/maltego.md
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Seeking vulnerabilities
+   :caption: Search
 
-   docs/seeking/README.md
-   docs/seeking/domains.md
-   docs/seeking/defence.md
-   docs/seeking/s3-urls.md
-   docs/seeking/ssrf.md
+   docs/search/README.md
+   docs/search/searching.md
+   docs/search/images.md
+   docs/search/google-dorking.md
+   docs/search/repositories.md
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Evasion (cloud)
+
+   docs/evasion/README.md
+   docs/evasion/scanning.md
+   docs/evasion/domains.md
+   docs/evasion/defence.md
+   docs/evasion/s3-urls.md
+   docs/evasion/ssrf.md
 
 .. toctree::
    :caption: Links
