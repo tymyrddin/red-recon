@@ -12,9 +12,7 @@
     1.6 ...
 ```
 
-## Examples
-
-### Github
+## Github
 
 In GitHub search:
 

@@ -23,6 +23,32 @@ Popular search modifiers that work with many popular search engines.
 
 Note: In addition to `pdf`, other interesting filetypes are: `doc`, `docx`, `ppt`, `pptx`, `xls` and `xlsx`.
 
+Public Google Drive documents:
+
+    site:docs.google.com "Target Name"
+
+Documents on `documentcloud.org`:
+
+    site:documentcloud.org "Target Name"
+
+Documents uploaded to Scribd:
+
+    site:scribd.com "targetname.tld"
+
+Public PowerPoint presentations:
+
+    intext:"Target Name" filetype:pptx
+
+Public PDF documents:
+
+    intext:"Target Name" filetype:pdf
+
+`.docx` documents on GP's website:
+
+    intext:"Target Name" filetype:docx
+
+Google observes copyright infringement laws and moderates its search output, so also try other search engines.
+
 ## Resources
 
 * [Google Advanced Search](https://www.google.com/advanced_search) 

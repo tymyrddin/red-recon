@@ -25,7 +25,6 @@ Falconry
 
    docs/osint/README.md
    docs/osint/website.md
-   docs/osint/social-media.md
    docs/osint/job-ads.md
    docs/osint/people.md
    docs/osint/shodan.md

@@ -14,7 +14,6 @@ found for exploiting them (to demonstrate).
 ## How?
 
 * [Website reconnaissance](website.md)
-* [Social media](social-media.md)
 * [Job ads](job-ads.md)
 * [People search](people.md)
 * [Shodan](shodan.md)
