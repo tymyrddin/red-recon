@@ -63,6 +63,7 @@ Falconry
    docs/scanning/passive.md
    docs/scanning/active.md
    docs/scanning/creative.md
+   docs/scanning/ports-cheatsheet.md
 
 .. toctree::
    :glob:

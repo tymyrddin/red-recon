@@ -15,3 +15,4 @@ To find potential initial vulnerable attack vectors.
 * [Passive scanning](passive.md)
 * [Active scanning](active.md)
 * [Get creative](creative.md)
+* [Ports cheatsheet](ports-cheatsheet.md)
