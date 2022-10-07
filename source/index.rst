@@ -73,10 +73,10 @@ Falconry
    :caption: Cloud
 
    docs/cloud/README.md
+   docs/cloud/repositories.md
    docs/cloud/scanning.md
    docs/cloud/s3-urls.md
    docs/cloud/ssrf.md
-   docs/cloud/repositories.md
 
 .. toctree::
    :glob:
