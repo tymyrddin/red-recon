@@ -22,3 +22,4 @@ found for exploiting them (to demonstrate).
 * [traceroute](traceroute.md)
 * [Organisational assets](assets.md)
 * [Certificates](certs.md)
+* [Subdomains](subdomains.md)

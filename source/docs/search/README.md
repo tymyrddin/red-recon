@@ -16,4 +16,3 @@ found for exploiting them (to demonstrate).
 * [Advanced searching](searching.md)
 * [Searching by image](images.md)
 * [Google hacking](google-dorking.md)
-* [Eyeing repositories](repositories.md)

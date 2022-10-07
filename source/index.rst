@@ -16,6 +16,7 @@ Falconry
    docs/domains/traceroute.md
    docs/domains/assets.md
    docs/domains/certs.md
+   docs/domains/subdomains.md
 
 .. toctree::
    :glob:
@@ -31,6 +32,7 @@ Falconry
    docs/osint/harvester.md
    docs/osint/recon-ng.md
    docs/osint/maltego.md
+   docs/osint/subdomains.md
 
 .. toctree::
    :glob:
@@ -42,7 +44,6 @@ Falconry
    docs/search/searching.md
    docs/search/images.md
    docs/search/google-dorking.md
-   docs/search/repositories.md
 
 .. toctree::
    :glob:
@@ -69,15 +70,23 @@ Falconry
    :glob:
    :maxdepth: 1
    :includehidden:
+   :caption: Cloud
+
+   docs/cloud/README.md
+   docs/cloud/scanning.md
+   docs/cloud/s3-urls.md
+   docs/cloud/ssrf.md
+   docs/cloud/repositories.md
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
    :caption: Evasion (cloud)
 
    docs/evasion/README.md
    docs/evasion/defence.md
    docs/evasion/nmap.md
-   docs/evasion/scanning.md
-   docs/evasion/domains.md
-   docs/evasion/s3-urls.md
-   docs/evasion/ssrf.md
 
 .. toctree::
    :caption: Links
