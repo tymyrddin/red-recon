@@ -131,3 +131,12 @@ one IP address is shared among different web servers with different domain names
 starting from a domain name or an IP address, you can find the other domain names using a specific IP address(es). 
 And maybe one of those sites is easy to compromise and gain access to the webserver as a whole.
 
+Amass:
+
+    amass intel -d target.com -whois
+
+## Resources
+
+* [ViewDNSInfo](https://viewdns.info/reversewhois/)
+* [DomainEye](https://domaineye.com/reverse-whois)
+* [Reverse Whois Lookup](https://www.reversewhois.io/)

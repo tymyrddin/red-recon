@@ -19,3 +19,7 @@ If the target organisation has an ASN, it is possible to test all the hosts insi
 and look for domains inside these IPs. Search by company name, by IP or by domain using the 
 [Hurricane Electric BGP Toolkit](https://bgp.he.net/). You can also find the IP ranges of an organisation using 
 [ASN Lookup](https://asnlookup.com/).
+
+## Continue
+
+Use shodan to find open ports and depending on finds pentest possible services running.
