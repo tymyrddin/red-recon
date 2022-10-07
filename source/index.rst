@@ -82,7 +82,7 @@ Falconry
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Evasion (cloud)
+   :caption: Evasion
 
    docs/evasion/README.md
    docs/evasion/defence.md
