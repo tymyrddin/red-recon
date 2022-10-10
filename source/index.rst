@@ -58,7 +58,7 @@ Falconry
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Scanning
+   :caption: Initial scanning
 
    docs/scanning/README.md
    docs/scanning/passive.md
