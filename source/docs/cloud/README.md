@@ -12,5 +12,6 @@ To gain information for initial access
 
 * [Eyeing repositories](repositories.md)
 * [Scanning cloud infrastructure](scanning.md)
+* [Get creative](creative.md)
 * [Investigating S3 URLs](s3-urls.md)
 * [Server-side request forgery](ssrf.md)

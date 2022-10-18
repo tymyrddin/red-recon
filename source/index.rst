@@ -61,10 +61,13 @@ Falconry
    :caption: Initial scanning
 
    docs/scanning/README.md
-   docs/scanning/passive.md
-   docs/scanning/active.md
-   docs/scanning/creative.md
-   docs/scanning/ports-cheatsheet.md
+   docs/scanning/overview.md
+   docs/scanning/hosts.md
+   docs/scanning/ports.md
+   docs/scanning/portsdb.md
+   docs/scanning/defence.md
+   docs/scanning/stealth.md
+   docs/scanning/firewall.md
 
 .. toctree::
    :glob:
@@ -75,18 +78,9 @@ Falconry
    docs/cloud/README.md
    docs/cloud/repositories.md
    docs/cloud/scanning.md
+   docs/cloud/creative.md
    docs/cloud/s3-urls.md
    docs/cloud/ssrf.md
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: Evasion
-
-   docs/evasion/README.md
-   docs/evasion/defence.md
-   docs/evasion/nmap.md
 
 .. toctree::
    :caption: Links

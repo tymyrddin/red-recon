@@ -12,7 +12,10 @@ To find potential initial vulnerable attack vectors.
 
 ## How?
 
-* [Passive scanning](passive.md)
-* [Active scanning](active.md)
-* [Get creative](creative.md)
-* [Ports cheatsheet](ports-cheatsheet.md)
+* [Overview](overview.md)
+* [Live host discovery](hosts.md)
+* [Port scanning](ports.md)
+* [Ports database](portsdb.md)
+* [Defence detection](defence.md)
+* [Stealth scans](stealth.md)
+* [Firewall evasion](firewall.md)
