@@ -1,6 +1,8 @@
 Falconry
 ======================================================
 
+Getting to know the target using methods like researching publicly available information and network scanning.
+
 .. toctree::
    :glob:
    :maxdepth: 1
