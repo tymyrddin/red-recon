@@ -8,7 +8,7 @@ Most of the endpoints follow this pattern (with region names being `eu-west-1`, 
 
     s3-REGION.amazonaws.com
 
-And there are some oddities to know.
+And there are some oddities useful to know.
 
 Two endpoints that do not follow the above pattern are those of the `us-east-1` region. 
 For that region endpoints are synonyms and both point to the same place:
@@ -64,4 +64,4 @@ Anyone who receives the presigned URL can then access the object.
 
 Because presigned URLs grant access to the Amazon S3 buckets to whoever has the URL, Amazon recommends they be 
 [protected appropriately](https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-presigned-url.html#PresignedUrlUploadObject-LimitCapabilities). 
-Something often forgotten, apparently.
+Something often forgotten, apparently. Getting it, but not quite.
