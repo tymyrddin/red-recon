@@ -52,3 +52,16 @@ There are two general forms of S3 website endpoint:
     http://BUCKET.s3-website.region.amazonaws.com
 
 Most of the regions follow the first form, while `eu-central-1` and `ap-northeast-2` follow the second. 
+
+## Presigned URL
+
+Users can create a presigned URL for an object, for which security credentials, a bucket name, an object key, an 
+HTTP method (GET to download the object), and an expiration date and time are given. The presigned URLs are valid 
+only for the specified duration. If a presigned URL is made using a temporary token, then the URL expires when the 
+token expires, even if the URL was created with a later expiration time.
+
+Anyone who receives the presigned URL can then access the object.
+
+Because presigned URLs grant access to the Amazon S3 buckets to whoever has the URL, Amazon recommends they be 
+[protected appropriately](https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-presigned-url.html#PresignedUrlUploadObject-LimitCapabilities). 
+Something often forgotten, apparently.
