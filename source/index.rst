@@ -73,11 +73,10 @@ Falconry
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Cloud
+   :caption: More recon
 
-   docs/cloud/README.md
-   docs/cloud/scanning.md
-   docs/cloud/s3-urls.md
+   docs/other/README.md
+   Head in the clouds <https://tymyrddin.github.io/red-cloud/>
 
 .. toctree::
    :caption: Links
