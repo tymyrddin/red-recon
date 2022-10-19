@@ -1,8 +1,14 @@
-# Maltego
+# Tools
 
-Maybe it comes up with something extra.
+## theHarvester
 
-Use built-in transformers of Maltego, for example:
+Use theHarvester to collect information such as names, email addresses, and subdomains, and discover hosts.
+
+## Recon-ng
+
+## Maltego
+
+Maybe it comes up with something extra. Use built-in transformers of Maltego, for example:
 
 1. Enter website, company 
 2. Discover entities associated with target

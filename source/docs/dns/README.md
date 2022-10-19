@@ -14,12 +14,13 @@ found for exploiting them (to demonstrate).
 
 ## How?
 
-* [Registrars](registrars.md)
-* [ASN](asn.md)
-* [Whois](whois.md)
-* [nslookup](nslookup.md)
-* [dig](dig.md)
-* [traceroute](traceroute.md)
-* [Organisational assets](assets.md)
-* [Certificates](certs.md)
-* [Subdomains](subdomains.md)
+* [The whois system](system.md)
+* [Using whois](whois.md)
+* [Zone transfer](zone-transfer.md)
+* [Active DNS enumeration](active-enum.md)
+* [Passive DNS enumeration](passive-enum.md)
+* [Finding ASN numbers](asn.md)
+* [Tracing routes](traceroute.md)
+* [Researching certificates](certs.md)
+* [Listing subdomains](subdomains.md)
+

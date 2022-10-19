@@ -1,4 +1,4 @@
-# WHOIS
+# Using whois
 
 WHOIS is a request and response protocol that follows the [RFC 3912](https://www.ietf.org/rfc/rfc3912.txt) 
 specification. A WHOIS server listens on TCP port 43 for incoming requests. 
@@ -8,10 +8,11 @@ specification. A WHOIS server listens on TCP port 43 for incoming requests.
 
 A domain registrar is responsible for maintaining the WHOIS records for the domain names it is leasing. 
 
-`whois` will query the WHOIS server to provide all saved records:
+The cli `whois` command helps in identifying the owner of a target, hosted company, and location of servers, 
+IP address, Server type, etc. Give it a target domain name and the WHOIS server provides saved records:
 
 ```text
-whois -h <HOST> -p <PORT> "domain.tld"
+whois <domainname>
 ```
 
 * Registrar WHOIS server
@@ -26,6 +27,8 @@ whois -h <HOST> -p <PORT> "domain.tld"
 ```text
 whois thmredteam.com
 ```
+
+Example:
 
 ```text
    Domain Name: THMREDTEAM.COM
@@ -112,6 +115,8 @@ URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
 For more information on Whois status codes, please visit https://icann.org/epp
 ```
 
+## Hacking WHOIS for more info
+
 The WHOIS service always needs to use a database to store and extract the information, and a possible SQLInjection 
 could be present when querying the database from some information provided by the user. For example, it could be 
 possible to extract all the information saved in the database with: 
@@ -131,9 +136,9 @@ one IP address is shared among different web servers with different domain names
 starting from a domain name or an IP address, you can find the other domain names using a specific IP address(es). 
 And maybe one of those sites is easy to compromise and gain access to the webserver as a whole.
 
-Amass:
+Using amass:
 
-    amass intel -d target.com -whois
+    amass intel -d <target.com> -whois
 
 ## Resources
 

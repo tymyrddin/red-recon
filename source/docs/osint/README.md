@@ -13,11 +13,11 @@ found for exploiting them (to demonstrate).
 
 ## How?
 
-* [Website reconnaissance](website.md)
+* [Assets discovery](assets.md)
+* [Advanced searching](searching.md)
+* [Searching by image](images.md)
+* [Google dorking](google-dorking.md)
 * [Job ads](job-ads.md)
 * [People search](people.md)
-* [Shodan](shodan.md)
-* [theHarvester](harvester.md)
-* [recon-ng](recon-ng.md)
-* [Maltego](maltego.md)
-* [Subdomains](subdomains.md)
+* [Tools](tools.md)
+

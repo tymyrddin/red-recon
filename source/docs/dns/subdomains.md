@@ -1,4 +1,4 @@
-# Subdomains
+# Listing subdomains
 
 The quickest ways to gather a lot of subdomains is search in external sources.
 

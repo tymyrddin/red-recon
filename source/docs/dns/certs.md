@@ -1,4 +1,7 @@
-# Certificates
+# Researching certificates
+
+👉 Wildcard certificates are a single point of failure. If we stumble upon the private key while roaming the
+network, we could intercept the communication flow of ***all*** applications using that same parent domain.
 
 When a certificate authority issues a certificate, these are entered into a central repository called a certificate log. 
 This repository keeps a binary tree of all certificates, where each node is the hash of its child nodes, thereby 
@@ -8,9 +11,6 @@ logs can be searched.
 
 Secret applications with little security hiding behind proxies can be exposed, and minimally subdomain enumeration 
 is way faster.
-
-Note: Wildcard certificates are a single point of failure. If we stumble upon the private key while roaming the
-network, we could intercept the communication flow of ***all*** applications using that same parent domain.
 
 ## Tools
 

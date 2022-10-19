@@ -1,4 +1,4 @@
-# Organisational assets
+# Assets discovery
 
 Obtain all the companies owned by a main company and then all the assets of these companies:
 
@@ -15,11 +15,10 @@ Obtain all the companies owned by a main company and then all the assets of thes
 
 ## ASNs
 
-If the target organisation has an ASN, it is possible to test all the hosts inside the scope for vulnerabilities, 
+If the target organisation has an [ASN](../dns/asn.md), it is possible to test all the hosts inside the scope for vulnerabilities, 
 and look for domains inside these IPs. Search by company name, by IP or by domain using the 
-[Hurricane Electric BGP Toolkit](https://bgp.he.net/). You can also find the IP ranges of an organisation using 
-[ASN Lookup](https://asnlookup.com/).
+[Hurricane Electric BGP Toolkit](https://bgp.he.net/). 
 
 ## Continue
 
-Use shodan to find open ports and depending on finds pentest possible services running.
+Use [shodan](../dns/passive-enum.md) to find open ports and depending on finds pentest possible services running.

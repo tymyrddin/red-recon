@@ -1,4 +1,21 @@
-# Shodan
+# Passive DNS enumeration
+
+Also see [active enumeration](active-enum.md).
+
+## Google dorking
+
+Familiar but very effective tool to identify subdomains, and generally the most legal way to find more assets of a 
+target.
+
+    inurl:<domain>
+
+More on [Google dorking](../osint/google-dorking.md).
+
+## Robtex
+
+One of the oldest and greatest tools for gathering information related to DNS is [Robtex](https://www.robtex.com/).
+
+## Shodan
 
 Use [Shodan](https://www.shodan.io/) to get a list of the target's publicly available servers and devices with their 
 IP addresses, the services running on them, and the ports that are open.

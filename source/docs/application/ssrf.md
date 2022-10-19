@@ -1,4 +1,4 @@
-# Server-side request forgery
+# Check for server-side request forgery
 
 A server-side request forgery (SSRF) attack involves forcing some server-side application to make HTTP requests to a 
 domain of our choosing. This can sometimes grant access to internal resources or unprotected admin panels.

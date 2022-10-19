@@ -5,18 +5,18 @@ Falconry
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Domains
+   :caption: DNS
 
-   docs/domains/README.md
-   docs/domains/registrars.md
-   docs/domains/asn.md
-   docs/domains/whois.md
-   docs/domains/nslookup.md
-   docs/domains/dig.md
-   docs/domains/traceroute.md
-   docs/domains/assets.md
-   docs/domains/certs.md
-   docs/domains/subdomains.md
+   docs/dns/README.md
+   docs/dns/system.md
+   docs/dns/whois.md
+   docs/dns/zone-transfer.md
+   docs/dns/active-enum.md
+   docs/dns/passive-enum.md
+   docs/dns/asn.md
+   docs/dns/traceroute.md
+   docs/dns/certs.md
+   docs/dns/subdomains.md
 
 .. toctree::
    :glob:
@@ -25,25 +25,13 @@ Falconry
    :caption: OSINT
 
    docs/osint/README.md
-   docs/osint/website.md
+   docs/osint/assets.md
+   docs/osint/searching.md
+   docs/osint/images.md
+   docs/osint/google-dorking.md
    docs/osint/job-ads.md
    docs/osint/people.md
-   docs/osint/shodan.md
-   docs/osint/harvester.md
-   docs/osint/recon-ng.md
-   docs/osint/maltego.md
-   docs/osint/subdomains.md
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: Search
-
-   docs/search/README.md
-   docs/search/searching.md
-   docs/search/images.md
-   docs/search/google-dorking.md
+   docs/osint/tools.md
 
 .. toctree::
    :glob:
@@ -73,14 +61,23 @@ Falconry
    :glob:
    :maxdepth: 1
    :includehidden:
+   :caption: Web application
+
+   docs/application/README.md
+   docs/application/website.md
+   docs/application/repositories.md
+   docs/application/ssrf.md
+   docs/application/creative.md
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
    :caption: Cloud
 
    docs/cloud/README.md
-   docs/cloud/repositories.md
    docs/cloud/scanning.md
-   docs/cloud/creative.md
    docs/cloud/s3-urls.md
-   docs/cloud/ssrf.md
 
 .. toctree::
    :caption: Links

@@ -1,7 +1,10 @@
-# traceroute
+# Tracing routes
 
-`traceroute` (Windows `tracert`) traces the route taken by the packets from our system to the target host. 
-The console output shows the routers (hops) connecting us to the target system. 
+Traceroute is a great tool for seeing where a `ping` goes before it hits the target system, allowing for greater 
+situational awareness on the target.
+
+`traceroute` (Windows `tracert`) traces the route taken by the packets from the attack host to the target host. 
+The console output shows the path between the two and reveals firewalls and routers that it hits on the way,
 
 Basic traceroute:
 
@@ -11,7 +14,8 @@ Disable IP address and host name mapping:
 
     # traceroute [domain] -n
 
-Configure response wait time. The -w option expects a value which will be taken as the response time to wait for (for example 0,1 seconds) If traceroute is unable to wait for any response it will print *’s.
+Configure response wait time. The -w option expects a value which will be taken as the response time to wait for 
+(for example 0,1 seconds) If traceroute is unable to wait for any response it will print *’s.
 
     # traceroute [domain] -w 0.1
 
