@@ -67,10 +67,10 @@ Getting to know the target using methods like researching publicly available inf
 
    docs/application/README.md
    docs/application/website.md
+   docs/application/sensitive-files.md
    docs/application/repositories.md
    docs/application/ssrf.md
    docs/application/creative.md
-   docs/application/sensitive-files.md
 
 .. toctree::
    :glob:
