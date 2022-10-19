@@ -4,11 +4,14 @@ Fragment packets:
 
     # nmap -f <IP>
 
-Specify a specific MTU:
+Most firewalls and IDS detect fragmented packets.
+
+The `nmap --mtu` command allows for specifying offset size (has to be a multiple of 8). This is similar to the packet 
+fragmentation technique. During the scan, nmap creates packets of that size, causing confusion to the firewall.
 
     # nmap --mtu [MTU] <IP>
 
-Use a decoy:
+Decoy:
 
     # nmap -D RND:[number] <IP>
 
@@ -35,3 +38,7 @@ Spoof MAC address:
 Send bad checksums:
 
     # nmap --badsum <IP>
+
+The `badsum` command deploys an invalid TCP/UDP/SCTP checksum for packets transmitted to the target. Practically every 
+host IP stack will correctly drop the packets, so each response accepted is possibly originating from a firewall or 
+Intrusion Detection System that was not concerned with confirming the checksum. 
