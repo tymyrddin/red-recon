@@ -7,6 +7,7 @@ them to collect the hidden metadata.
 ## Resources
 
 * [netcraft](https://www.netcraft.com/)
+* [wappalyzer](https://www.wappalyzer.com)
 * [BuiltWith](https://builtwith.com/)
 * [Source Code Search Engine](https://publicwww.com/)
 * [SpyOnWeb](https://spyonweb.com/)
