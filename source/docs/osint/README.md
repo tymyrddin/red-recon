@@ -17,6 +17,7 @@ found for exploiting them (to demonstrate).
 * [Advanced searching](searching.md)
 * [Searching by image](images.md)
 * [Google dorking](google-dorking.md)
+* [Eyeing repositories](repositories.md)
 * [Job ads](job-ads.md)
 * [People search](people.md)
 * [Tools](tools.md)

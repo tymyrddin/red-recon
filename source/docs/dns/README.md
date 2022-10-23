@@ -2,7 +2,8 @@
 
 ## What?
 
-Discover domain name and IP address information and identify the technical contact and administrator contact 
+Identify the domains using a combination of Whois lookups and DNS profiling. Use tools such as Whois,
+Shodan, and recon-ng to collect domain information. Identify the technical contact and administrator contact 
 information for that company or domain and use additional tools to query DNS for different types of DNS records.
 
 👉 If zone transfers are not refused, make sure to document that in the report.

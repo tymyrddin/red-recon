@@ -32,6 +32,7 @@ Getting to know the target using methods like researching publicly available inf
    docs/osint/images.md
    docs/osint/google-dorking.md
    docs/osint/job-ads.md
+   docs/osint/repositories.md
    docs/osint/people.md
    docs/osint/tools.md
 
