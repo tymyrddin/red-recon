@@ -20,5 +20,4 @@ found for exploiting them (to demonstrate).
 * [Eyeing repositories](repositories.md)
 * [Job ads](job-ads.md)
 * [People search](people.md)
-* [Tools](tools.md)
-
+* [Website research](website.md)

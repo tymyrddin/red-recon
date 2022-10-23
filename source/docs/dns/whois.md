@@ -8,6 +8,15 @@ specification. A WHOIS server listens on TCP port 43 for incoming requests.
 
 A domain registrar is responsible for maintaining the WHOIS records for the domain names it is leasing. 
 
+* Go to `www.arin.net/whois` and search for `target name` in the ARIN Whois/RDAP Search bar.
+* Find a handle which displays more information about this registration including the range of IP addresses.
+* Find an entry with a net range (public IPs).
+* Determine all the public IP blocks the target may have.
+
+If you cannot find any results try some other Whois database search sites.
+
+## Whois CLI
+
 The cli `whois` command helps in identifying the owner of a target, hosted company, and location of servers, 
 IP address, Server type, etc. Give it a target domain name and the WHOIS server provides saved records:
 
@@ -142,6 +151,9 @@ Using amass:
 
 ## Resources
 
+* [WhoIs LookUp DomainTools](https://whois.domaintools.com/)
+* [Robtex](https://www.robtex.com/)
+* [DNSDumpster](https://dnsdumpster.com/)
 * [ViewDNSInfo](https://viewdns.info/reversewhois/)
 * [DomainEye](https://domaineye.com/reverse-whois)
 * [Reverse Whois Lookup](https://www.reversewhois.io/)

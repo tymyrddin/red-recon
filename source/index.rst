@@ -34,7 +34,7 @@ Getting to know the target using methods like researching publicly available inf
    docs/osint/job-ads.md
    docs/osint/repositories.md
    docs/osint/people.md
-   docs/osint/tools.md
+   docs/osint/website.md
 
 .. toctree::
    :glob:
@@ -44,6 +44,7 @@ Getting to know the target using methods like researching publicly available inf
 
    docs/active/README.md
    docs/active/war-dialing-driving-flying-shipping.md
+   docs/active/tools.md
 
 .. toctree::
    :glob:

@@ -19,6 +19,14 @@ It uses the default DNS server to get the `A` and `AAAA` records related to a do
     nslookup clinic.thmredteam.com
 
 ```text
+nslookup
+set type=MX
+target.com
+```
+
+Then use `nslookup` again to resolve the FQDNs of the mail servers to IP adressess.
+
+```text
 Server:		127.0.0.53
 Address:	127.0.0.53#53
 
@@ -41,7 +49,21 @@ Nmap is a port scanner used to identify open ports. Click Here for Nmap Cheatshe
 
 ## dig
 
-dig is a command line tool for querying DNS servers. `dig` provides a lot of query options and even allows specifying a different DNS server to use. For example, we can 
+dig is a command line tool for querying DNS servers. Use `dig` to perform DNS profiling of the target organisation.
+
+To determine the IP address of a system:
+
+    dig www.target.com +short
+
+To determine the DNS servers:
+
+    dig target.com NS +short
+
+To determine the email servers for the organisation:
+
+    dig target.com MX +short
+
+dig` provides a lot of query options and even allows specifying a different DNS server to use. For example, we can 
 use Cloudflare's DNS server with: `dig @1.1.1.1 tryhackme.com`.
 
     # dig axfr <domain> @<ns-domain>
@@ -88,3 +110,5 @@ DNSenum is perl script identifying DNS information of target.
 Reconnaissance tool that can be used to perform automatic recon of target. To get subdomains from the DNS records: 
 
     # dnsrecon -d <domain>
+
+
