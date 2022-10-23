@@ -63,23 +63,12 @@ Getting to know the target using methods like researching publicly available inf
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Web application
-
-   docs/application/README.md
-   docs/application/website.md
-   docs/application/sensitive-files.md
-   docs/application/repositories.md
-   docs/application/ssrf.md
-   docs/application/creative.md
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
    :caption: More recon
 
    docs/other/README.md
+   A canopy of apple-blossom <https://tymyrddin.github.io/red-app/>
    Head in the clouds <https://tymyrddin.github.io/red-cloud/>
+   API Mayhem <https://tymyrddin.github.io/red-api/>
 
 .. toctree::
    :caption: Links

@@ -79,5 +79,7 @@ html_show_copyright = False
 intersphinx_mapping = {
     "red-enum": ("https://tymyrddin.github.io/red-enum/", None),
     "red-cloud": ("https://tymyrddin.github.io/red-cloud/", None),
+    "red-app": ("https://tymyrddin.github.io/red-app/", None),
+    "red-api": ("https://tymyrddin.github.io/red-api/", None),
 }
 myst_url_schemes = ["http", "https", ]
