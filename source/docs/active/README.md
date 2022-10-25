@@ -20,7 +20,8 @@ found for exploiting them (to demonstrate).
 ## How?
 
 * [War-dialing-driving-flying-shipping](war-dialing-driving-flying-shipping.md)
-* [Tools](../active/tools.md)
+* [Sensitive files discovery](sensitive-files.md)
+* [Tools](tools.md)
 * Capture and analyse network traffic to discover sensitive information and API requests and responses and their
 contents.
 

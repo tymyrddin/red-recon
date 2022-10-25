@@ -44,6 +44,7 @@ Getting to know the target using methods like researching publicly available inf
 
    docs/active/README.md
    docs/active/war-dialing-driving-flying-shipping.md
+   docs/active/sensitive-files.md
    docs/active/tools.md
 
 .. toctree::
