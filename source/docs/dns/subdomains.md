@@ -125,7 +125,7 @@ data using chaospy or even access the scope used by
 
 ## Resources
 
-* [Hacktricks](https://book.hacktricks.xyz)
+* [amass — Automated Attack Surface Mapping](https://danielmiessler.com/study/amass/)
 * [Subdomains cheatsheet](https://pentester.land/cheatsheets/2018/11/14/subdomains-enumeration-cheatsheet.html)
 * [Knockpy subdomains](https://github.com/guelfoweb/knock), already installed on Kali
 * [Subdomains enumeration via favicon.ico hashing](https://github.com/m4ll0k/BBTz/blob/master/favihash.py)
