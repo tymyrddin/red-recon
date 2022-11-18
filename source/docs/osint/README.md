@@ -13,6 +13,8 @@ found for exploiting them (to demonstrate).
 
 ## How?
 
+* [Gathering info about an organisation](organisation.md)
+* [Gathering info about a person](person.md)
 * [Assets discovery](assets.md)
 * [Advanced searching](searching.md)
 * [Searching by image](images.md)

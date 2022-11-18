@@ -27,6 +27,8 @@ Getting to know the target using methods like researching publicly available inf
    :caption: OSINT
 
    docs/osint/README.md
+   docs/osint/organisation.md
+   docs/osint/person.md
    docs/osint/assets.md
    docs/osint/searching.md
    docs/osint/images.md
