@@ -56,8 +56,14 @@ Getting to know the target using methods like researching publicly available inf
    docs/scanning/README.md
    docs/scanning/overview.md
    docs/scanning/hosts.md
+   docs/scanning/icmp.md
+   docs/scanning/tcp.md
+   docs/scanning/udp.md
    docs/scanning/ports.md
    docs/scanning/portsdb.md
+   docs/scanning/vulns.md
+   docs/scanning/service-and-os.md
+   docs/scanning/diving.md
    docs/scanning/defence.md
    docs/scanning/stealth.md
    docs/scanning/firewall.md
