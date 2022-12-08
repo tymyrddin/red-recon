@@ -84,5 +84,5 @@ Getting to know the target using methods like researching publicly available inf
 .. toctree::
    :caption: Links
 
-   Red Team <https://tymyrddin.github.io/red/>
+   Red Team <https://red.tymyrddin.dev/>
 
