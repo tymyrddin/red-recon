@@ -77,9 +77,9 @@ Getting to know the target using methods like researching publicly available inf
    :caption: More recon
 
    docs/other/README.md
-   A canopy of apple-blossom <https://tymyrddin.github.io/red-app/>
-   Head in the clouds <https://tymyrddin.github.io/red-cloud/>
-   API Mayhem <https://tymyrddin.github.io/red-api/>
+   A canopy of apple-blossom <https://red.tymyrddin.dev/projects/app/en/latest/>
+   Head in the clouds <https://red.tymyrddin.dev/projects/cloud/en/latest/>
+   API Mayhem <https://red.tymyrddin.dev/projects/api/en/latest/>
 
 .. toctree::
    :caption: Links
