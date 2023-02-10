@@ -3,6 +3,8 @@ Falconry
 
 Getting to know the target using methods like researching publicly available information and network scanning.
 
+----
+
 .. toctree::
    :glob:
    :maxdepth: 1
@@ -79,9 +81,3 @@ Getting to know the target using methods like researching publicly available inf
    A canopy of apple-blossom <https://red.tymyrddin.dev/projects/app/en/latest/>
    Head in the clouds <https://red.tymyrddin.dev/projects/cloud/en/latest/>
    API Mayhem <https://red.tymyrddin.dev/projects/api/en/latest/>
-
-.. toctree::
-   :caption: Links
-
-   Red Team <https://red.tymyrddin.dev/>
-
