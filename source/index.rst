@@ -75,6 +75,18 @@ Getting to know the target using methods like researching publicly available inf
    :glob:
    :maxdepth: 1
    :includehidden:
+   :caption: Web applications
+
+   docs/app/README.md
+   docs/app/stroll.md
+   docs/app/dns.md
+   docs/app/sneaky.md
+   docs/app/techstack.md
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
    :caption: More recon
 
    docs/other/README.md

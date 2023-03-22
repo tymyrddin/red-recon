@@ -80,6 +80,7 @@ html_show_copyright = False
 intersphinx_mapping = {
     "red-enum": ("https://red.tymyrddin.dev/projects/enum/en/latest/", None),
     "red-cloud": ("https://red.tymyrddin.dev/projects/cloud/en/latest/", None),
+    "red-testlab": ("https://red.tymyrddin.dev/projects/testlab/en/latest/", None),
     "red-app": ("https://red.tymyrddin.dev/projects/app/en/latest/", None),
     "red-api": ("https://red.tymyrddin.dev/projects/api/en/latest/", None),
 }
