@@ -9,7 +9,7 @@ Getting to know the target using methods like researching publicly available inf
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: DNS
+   :caption: DNS techniques
 
    docs/dns/README.md
    docs/dns/system.md
@@ -26,7 +26,7 @@ Getting to know the target using methods like researching publicly available inf
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: OSINT
+   :caption: OSINT techniques
 
    docs/osint/README.md
    docs/osint/person.md
@@ -75,7 +75,7 @@ Getting to know the target using methods like researching publicly available inf
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Web applications
+   :caption: Canopy of apple-blossom
 
    docs/app/README.md
    docs/app/stroll.md
@@ -87,9 +87,22 @@ Getting to know the target using methods like researching publicly available inf
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: More recon
+   :caption: API Mayhem
 
-   docs/other/README.md
-   A canopy of apple-blossom <https://red.tymyrddin.dev/projects/app/en/latest/>
-   Head in the clouds <https://red.tymyrddin.dev/projects/cloud/en/latest/>
-   API Mayhem <https://red.tymyrddin.dev/projects/api/en/latest/>
+   docs/api/README.md
+   docs/api/collect-data.md
+   docs/api/functionality.md
+   docs/api/burp.md
+   docs/api/parameters.md
+   docs/api/secrets.md
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Head in the clouds
+
+   docs/cloud/README.md
+   docs/cloud/map.md
+   docs/cloud/tools.md
+   docs/cloud/s3-urls.md
