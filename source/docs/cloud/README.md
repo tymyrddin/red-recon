@@ -11,7 +11,7 @@ not be available for public consumption.
 
 ## Why?
 
-To gain information for initial access.
+To gain information for initial [access in the cloud](red-cloud:index).
 
 ## How?
 
