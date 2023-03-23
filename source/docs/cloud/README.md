@@ -16,6 +16,5 @@ To gain information for initial [access in the cloud](red-cloud:index).
 ## How?
 
 * [Mapping endpoints and plan](map.md)
-* [Cloud penetration testing tools](tools.md)
 * [Investigating AWS S3 URLs](s3-urls.md)
 

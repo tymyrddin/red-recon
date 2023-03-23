@@ -104,5 +104,4 @@ Getting to know the target using methods like researching publicly available inf
 
    docs/cloud/README.md
    docs/cloud/map.md
-   docs/cloud/tools.md
    docs/cloud/s3-urls.md
