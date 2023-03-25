@@ -1,20 +1,14 @@
 # Diving deeper in discovery
 
-## Attack tree
+1. Identify live networks between source and already identified subnets
+    * Traceroute to the gateway or DNS server for each network 
+    * Add newly identified networks to the list of subnets
+2. Discover the IP addresses of servers behind a DNS 
+3. Discover how long a server has been up 
+4. Where is a server's physical location 
+5. ...
 
-```text
-1 Identify live networks between source and already identified subnets (OR)
-    1.1 Traceroute to the gateway or DNS server for each network (AND)
-    1.2 Add newly identified networks to the list of subnets
-2 Discover the IP addresses of servers behind a DNS (OR)
-3 Discover how long a server has been up (OR)
-4 Where is a server's physical location (OR)
-5 ...
-```
-
-## Notes
-
-### Under the hood
+## Under the hood
 
 Traceroutes work by manipulating the Time-To-Live (TTL) field in an IP packet. This field tells a device a packet is passing through how many more systems (or hops) a packet can pass through before being dropped. This is to ensure that lost packets do not just simply hop around the Internet forever and eventually, with enough lost packets clogs it up. The field is decremented as it passes through each network hop. When it reaches zero, a router will drop the packet being sent through it and send an ICMP Time-To-Live exceeded message back to the source.
 
@@ -25,13 +19,13 @@ There is an ICMP traceroute (tracert.exe, Windows) and a UDP traceroute (tracero
 * UDP traceroute is not so great where filtering is in place. 
 * Most Unix traceroute implementations now support TCP static port traceroutes out of the box.
 
-### Mapping out DMZ and internal networks
+## Mapping out DMZ and internal networks
 
 Because all traceroutes work using ICMP TTL Exceeded messages, which protocol is used is not important as long as there 
 is a known response. Use a TCP traceroute with a `SYN` flag set, and commonly open ports such as 25, 80 or 443 for which 
 you can get a reliable response back once the target is reached. 
 
-### Uptime
+## Uptime
 
 Each time a server is patched or updated, it must also be rebooted. If a server has been up for a long time, we know it 
 has not been patched or updated in that time, and that it will be vulnerable to all vulnerabilities discovered during 
@@ -75,11 +69,3 @@ Uptime of a server:
 # hping3 [ip_or_hostname] -p 80 –tcp-timestamp -S -c 4
 ```
 
-## Tools
-
-* [hping3](https://www.kali.org/tools/hping3/)
-
-## Cheatsheets
-
-* [Getting started with hping3](http://wiki.hping.org/94)
-* [Man hping3](https://linux.die.net/man/8/hping3)

@@ -12,14 +12,12 @@ To find potential initial vulnerable attack vectors.
 
 ## How?
 
-* [Overview](overview.md)
+* [War-dialing-driving-flying-shipping](war-dialing-driving-flying-shipping.md)
 * [Live host discovery](hosts.md)
 * [Host discovery with ICMP (ping sweep)](icmp.md)
 * [Host discovery with TCP](tcp.md)
 * [Host discovery with UDP](udp.md)
 * [Port scanning](ports.md)
-* [Ports database](portsdb.md)
-* [Discover vulnerabilities](vulns.md)
 * [Service and OS detection](service-and-os.md)
 * [Diving deeper in discovery](diving.md)
 * [Defence detection](defence.md)

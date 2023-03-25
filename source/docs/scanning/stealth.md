@@ -2,7 +2,7 @@
 
 ## Stealth
 
-Never use connect scan (-sT), which establishes a full connection to a port, if one wishes to remain stealthy. Excessive port connections can create a DoS condition on older boxes, and will raise the alarms on any IDS.
+Never use connect scan (`-sT`), which establishes a full connection to a port, if one wishes to remain stealthy. Excessive port connections can create a DoS condition on older boxes, and will raise the alarms on any IDS.
 
 Use a stealthy port-scanning method with nmap, such as a TCP SYN scan (sometimes called a half-open scan). It is not only stealthy, it is also lighter on both systems, source and target. 
 

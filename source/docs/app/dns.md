@@ -91,7 +91,7 @@ Another way of discovering directories and paths is through web spidering, or we
 
 ## Third-party hosting
 
-Take a look at the company’s third-party hosting footprint. For example, look for the organisation’s S3 buckets. A way to find those is through [Google dorking](../osint/google-dorking.md). 
+Take a look at the company’s third-party hosting footprint. For example, look for the organisation’s S3 buckets. A way to find those is through Google dorking. 
 
     site:s3.amazonaws.com COMPANY_NAME
     site:amazonaws.com COMPANY_NAME

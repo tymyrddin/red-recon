@@ -3,52 +3,28 @@ Falconry
 
 Getting to know the target using methods like researching publicly available information and network scanning.
 
+.. image:: _static/images/in-progress.png
+  :alt: Forever in progress ...
+
 ----
 
 .. toctree::
-   :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: DNS techniques
+   :caption: Preparation
 
-   docs/dns/README.md
-   docs/dns/system.md
-   docs/dns/whois.md
-   docs/dns/zone-transfer.md
-   docs/dns/active-enum.md
-   docs/dns/passive-enum.md
-   docs/dns/asn.md
-   docs/dns/traceroute.md
-   docs/dns/certs.md
-   docs/dns/subdomains.md
+   Build a local testlab <https://red.tymyrddin.dev/projects/testlab/en/latest/docs/recon/README.html>
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: OSINT techniques
+   :caption: Footprinting
 
-   docs/osint/README.md
-   docs/osint/person.md
-   docs/osint/assets.md
-   docs/osint/searching.md
-   docs/osint/images.md
-   docs/osint/google-dorking.md
-   docs/osint/job-ads.md
-   docs/osint/repositories.md
-   docs/osint/people.md
-   docs/osint/website.md
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-   :includehidden:
-   :caption: Active recon
-
-   docs/active/README.md
-   docs/active/war-dialing-driving-flying-shipping.md
-   docs/active/sensitive-files.md
-   docs/active/tools.md
+   docs/footprinting/README.md
+   docs/footprinting/network.md
+   docs/footprinting/system.md
+   docs/footprinting/organisation.md
 
 .. toctree::
    :glob:
@@ -57,14 +33,12 @@ Getting to know the target using methods like researching publicly available inf
    :caption: Initial scanning
 
    docs/scanning/README.md
-   docs/scanning/overview.md
+   docs/scanning/war-dialing-driving-flying-shipping.md
    docs/scanning/hosts.md
    docs/scanning/icmp.md
    docs/scanning/tcp.md
    docs/scanning/udp.md
    docs/scanning/ports.md
-   docs/scanning/portsdb.md
-   docs/scanning/vulns.md
    docs/scanning/service-and-os.md
    docs/scanning/diving.md
    docs/scanning/defence.md
@@ -105,3 +79,8 @@ Getting to know the target using methods like researching publicly available inf
    docs/cloud/README.md
    docs/cloud/map.md
    docs/cloud/s3-urls.md
+
+----
+
+.. image:: _static/images/books.png
+  :alt: Useful books

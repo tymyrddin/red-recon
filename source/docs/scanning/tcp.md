@@ -1,31 +1,27 @@
 # Host discovery with TCP
 
-## Attack tree
+Split port scans by port number
 
-```text
-1 Split port scans by port number
-    1.1 Low TCP port scans
-    1.2 Medium TCP port scans
-    1.2 High TCP port scans
-```
+1. Low TCP port scans
+2. Medium TCP port scans
+3. High TCP port scans
 
-## Notes
-
-### Split scans
+## Split scans
 
 Split the scans to get a set of results back in a shorter period of time. This makes it possible to start testing while 
 the remaining results come back. By the time medium port scans are finished, underlying services of the lower ports 
 have probably been enumerated.
+
 * Use ports 0-1024 for the low range (System Ports). These scans cover services such as SMTP, Windows File Sharing, HTTP, HTTPS and other commonly found services.
 * For medium port use ports 1025-32767 (the bulk of the User Ports). These cover NFS, Sun RPC Port Mapper, X-Windows, VNC, Microsoft Terminal Services, etc.
 * The high port scans are for ports in the range 32768-65535 (the lesser used User Ports and Dynamic or Ephemeral ports).
 
-### Hints
+## Hints
 
 * Do not ping the target in these scans because there may be filtering in place, which could result in pings failing 
 and nmap accidentally concluding that a host is down.
 
-### Under the hood
+## Under the hood
 
 TCP SYN (Stealth) scan (`-sS`) is the default and most popular scan option for good reason. It can be performed quickly, 
 scanning thousands of ports per second on a fast network not hampered by intrusive firewalls. SYN scan is relatively 
@@ -45,13 +41,13 @@ Because the three-way handshake is never completed, SYN scan is sometimes called
 * If no service is listening on that port but the machine is up and running and on the network, a reset (`RST`) packet will be sent back. That means there is nothing listening on that port, but having sent something in return means that a machine is at that IP address.
 * If nothing is received after sending a `SYN` packet, it means there is no host at that IP address OR a firewall is blocking traffic OR the host is down. Port 80 is therefore extremely useful for ping sweeps, because most firewalls and port filters do not block web traffic.
 
-| Send  | Receive   | Send                    | Assumption                                                                                |
-|-------|-----------|-------------------------|-------------------------------------------------------------------------------------------| 
-| `SYN` | `SYN/ACK` | `ACK` followed by `RST` | Port is open, host is up                                                                  |
-| `SYN` | `RST`     | -                       | Port is closed, host is up                                                                |
-| `SYN` | Nothing   | -                       | Port is blocked by firewall, host is down, <br/>or there is no host at that IP address    |
+|  Send | Receive | Send                | Assumption                                                                             |
+|:------|:--------|:--------------------|:---------------------------------------------------------------------------------------|
+| SYN   | SYN/ACK | ACK followed by RST | Port is open, host is up                                                               |
+| SYN   | RST     | -                   | Port is closed, host is up                                                             |
+| SYN   | Nothing | -                   | Port is blocked by firewall, host is down,<br/>or there is no host at that IP address. |
 
-### Interpreting portscan outputs
+## Interpreting portscan outputs
 
 Some puzzling with indicators will help:
 

@@ -1,16 +1,11 @@
 # Host discovery with UDP
 
-## Attack tree
+Split port scans by port number
 
-```text
-1 Split port scans by port number
-    1.1 Low UDP port scans
-    1.2 Remaining UDP port scans
-```
+1. Low UDP port scans
+2. Remaining UDP port scans
 
-## Notes
-
-### Relationship with ICMP
+## Relationship with ICMP
 
 UDP is a stateless protocol. It was designed for applications that do not care whether a packet is received. This could 
 saturate a link, and ICMP is used in its congestion control. Because UDP is stateless, it is easy to spoof using ICMP error messages to mask the source of a Distributed Denial of 
@@ -21,14 +16,14 @@ Solutions are scanning multiple hosts in parallel, scanning popular ports first,
 specific protocols and scanning those separately. Older versions of Windows (and some configurations of current Windows systems) do not implement ICMP error rate 
 limiting. Knowing beforehand which are Windows systems, these can be put on a separate IP list.
 
-### Not responding
+## Not responding
 
 UDP services are highly unlikely to respond to a regular empty UDP probe datagaram because the underlying 
 application does not receive a packet that causes it to respond. The solution is to send a packet related to the 
 most likely service (based on port number) running under it. For example, brute forcing SNMP on port 161 could be 
 worthwhile and sending a correctly formed DNS query datagram to UDP port 53 will likely give a useful response.
 
-### Interpreting portscan outputs
+## Interpreting portscan outputs
 
 `nmap` will report a lot of closed ports, and some as `open|filtered`. The latter means that `nmap` did not receive a 
 response. Use a combination of ICMP and IP to whittle things down:
