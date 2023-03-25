@@ -80,6 +80,16 @@ Getting to know the target using methods like researching publicly available inf
    docs/cloud/map.md
    docs/cloud/s3-urls.md
 
+.. toctree::
+   :glob:
+   :maxdepth: 1
+   :includehidden:
+   :caption: Pocketful of acorns
+
+   docs/physical/README.md
+   docs/physical/osint.md
+   docs/physical/facilities.md
+
 ----
 
 .. image:: _static/images/books.png
