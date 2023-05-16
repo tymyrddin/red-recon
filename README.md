@@ -1,9 +1,6 @@
 # Reconnaissance
 
-Built with [Sphinx](https://www.sphinx-doc.org) using a [theme](https://github.com/readthedocs/sphinx_rtd_theme) provided
-by [Read the Docs](https://readthedocs.org/).
-
-[![Documentation Status](https://readthedocs.org/projects/red-recon/badge/?version=latest)](https://red.tymyrddin.dev/projects/recon/en/latest/?badge=latest)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ce6d8324-8364-4b1f-b938-6fdaf040f4d6/deploy-status)](https://app.netlify.com/sites/cozy-capybara-810ec1/deploys)
 
 ## Requirements
 
