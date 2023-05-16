@@ -6,7 +6,7 @@ Recon strategies for gathering intel on a target.
 
 ## Why?
 
-To discover all the possible ways of attacking a target before deciding on the most effective approach for [web application hacking](red-app:index).
+To discover all the possible ways of attacking a target before deciding on the most effective approach for web application hacking.
 
 ## How?
 

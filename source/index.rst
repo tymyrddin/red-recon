@@ -13,7 +13,7 @@ Getting to know the target using methods like researching publicly available inf
    :includehidden:
    :caption: Preparation
 
-   Build a local testlab <https://red.tymyrddin.dev/projects/testlab/en/latest/docs/recon/README.html>
+   Build a local testlab <https://testlab.tymyrddin.dev/docs/recon/README>
 
 .. toctree::
    :glob:

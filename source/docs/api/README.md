@@ -7,8 +7,8 @@ passwords), version information, API documentation, and information about the AP
 
 ## Why?
 
-The more information gathered about a target, the better the odds of [discovering and exploiting API-related 
-vulnerabilities](red-api:index).
+The more information gathered about a target, the better the odds of discovering and exploiting API-related 
+vulnerabilities.
 
 ## How?
 

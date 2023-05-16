@@ -6,7 +6,7 @@ Gather information to create an operations plan. In some cases, the client will 
 
 ## Why?
 
-[Identify vulnerabilities and weaknesses in physical security controls](red-acorns:index).
+Identify vulnerabilities and weaknesses in physical security controls.
 
 ## How?
 
